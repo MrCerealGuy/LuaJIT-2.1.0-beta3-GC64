@@ -1,4 +1,4 @@
-# README for LuaJIT 2.1.0-beta3-GC64
+# LuaJIT 2.1.0-beta3-GC64
 
 by Andreas Zahnleiter <a.zahnleiter@gmx.de>
 
@@ -11,6 +11,7 @@ https://github.com/minetest/minetest/issues/2988#issuecomment-285090239
 ## Cross-compilation on Linux x64 for Windows x64
 
 ```
+cd src/
 make XCFLAGS=-DLUAJIT_ENABLE_GC64 HOST_CC="gcc" CROSS=x86_64-w64-mingw32- TARGET_SYS=Windows
 ```
 
