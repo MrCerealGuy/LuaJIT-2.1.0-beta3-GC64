@@ -2,7 +2,7 @@
 
 by Andreas Zahnleiter <a.zahnleiter@gmx.de>
 
-This version of LuaJIT is a experimental build with enabled GC64 to prevent OOM errors in Stonecraft.
+This version of LuaJIT is an experimental build with enabled GC64 to prevent OOM errors in Stonecraft.
 
 See issue:
 https://github.com/minetest/minetest/issues/2988#issuecomment-285090239
